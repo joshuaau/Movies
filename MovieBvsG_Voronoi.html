@@ -451,7 +451,7 @@ svg.selectAll("path")
     //Give each cell a unique class where the unique part corresponds
     //to the circle classes
     .attr("class", function(d,i) { return "movie" + i; })
-    .style("stroke", "#2074A0") //If you want to look at the cells
+    //.style("stroke", "#2074A0") //If you want to look at the cells
     .style("fill", "none")
     .style("pointer-events", "all")
     .on("mouseover", d => {tooltip.style("visibility", "visible")
